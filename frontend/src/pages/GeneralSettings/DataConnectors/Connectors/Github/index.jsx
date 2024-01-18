@@ -134,7 +134,7 @@ export default function GithubConnectorSetup() {
                       type="url"
                       name="repo"
                       className="bg-zinc-900 text-white placeholder-white placeholder-opacity-60 text-sm rounded-lg focus:border-white block w-full p-2.5"
-                      placeholder="https://github.com/Mintplex-Labs/anything-llm"
+                      placeholder="https://github.com"
                       required={true}
                       autoComplete="off"
                       onChange={(e) => setRepo(e.target.value)}

@@ -42,7 +42,7 @@ export default function EmbeddingPreference({
 
   const EMBEDDERS = [
     {
-      name: "AnythingLLM Embedder",
+      name: "DocsBot.AI Embedder",
       value: "native",
       logo: AnythingLLMIcon,
       options: <NativeEmbeddingOptions settings={settings} />,

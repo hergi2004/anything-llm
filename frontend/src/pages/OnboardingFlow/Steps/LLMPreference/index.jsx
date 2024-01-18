@@ -124,7 +124,7 @@ export default function LLMPreference({
       logo: AnythingLLMIcon,
       options: <NativeLLMOptions settings={settings} />,
       description:
-        "Use a downloaded custom Llama model for chatting on this AnythingLLM instance.",
+        "Use a downloaded custom Llama model for chatting on this DocsBot.AI instance.",
     },
   ];
 

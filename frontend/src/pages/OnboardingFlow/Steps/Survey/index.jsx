@@ -4,8 +4,8 @@ import { CheckCircle } from "@phosphor-icons/react";
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
-const TITLE = "Welcome to AnythingLLM";
-const DESCRIPTION = "Help us make AnythingLLM built for your needs. Optional.";
+const TITLE = "Welcome to DocsBot.AI";
+const DESCRIPTION = "Help us make DocsBot.AI built for your needs. Optional.";
 
 async function sendQuestionnaire({ email, useCase, comment }) {
   if (import.meta.env.DEV) return;
@@ -82,7 +82,7 @@ export default function Survey({ setHeader, setForwardBtn, setBackBtn }) {
               href={paths.mailToMintplex()}
               className="text-sky-400 underline text-xs"
             >
-              team@mintplexlabs.com
+              info@infosedge.com
             </a>
           </div>
         </div>
@@ -270,7 +270,7 @@ export default function Survey({ setHeader, setForwardBtn, setBackBtn }) {
             name="comment"
             rows={5}
             className="mt-2 bg-zinc-900 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-            placeholder="If you have any questions or comments right now, you can leave them here and we will get back to you. You can also email team@mintplexlabs.com"
+            placeholder="If you have any questions or comments right now, you can leave them here and we will get back to you. You can also email info@infosedge.com"
             wrap="soft"
             autoComplete="off"
           />

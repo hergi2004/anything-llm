@@ -21,7 +21,7 @@ export default function OnboardingHome() {
 
         <div className="relative flex justify-center items-center m-auto">
           <div className="flex flex-col justify-center items-center">
-            <p className="text-zinc-300 font-thin text-[24px]">Welcome to</p>
+            <p className="text-zinc-300 font-thin text-[24px]">Welcome to DocsBot.AI</p>
             <img
               src={AnythingLLMLogo}
               alt="AnythingLLM"
